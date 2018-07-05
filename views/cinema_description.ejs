@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+	<h1>Cinema Info</h1>
+	<body>
+		<p>
+			<h4><%= cinema.name %></h4>
+			<p><%= cinema.description %></p>
+			<p><%= cinema.location %></p>
+				<img src = <%= cinema.image %> > 
+			<p>
+				<a href="/cinemas/<%= cinema._id%>/<%=cinema.name %>/shows" > Shows at cinemas!! </a> 
+			</p>
+		</p>
+	</body>
+</html>

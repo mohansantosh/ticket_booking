@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+	<h1>Available shows at the cinemas <%= cinema %></h1>
+	<body>
+		<%	shows.forEach(function(show) { %>
+		<div>
+  				<h4><p><%= show.movie.name %></p></h4>
+  				<p><%= show.movie.description %></p>
+  				<p><%= show.movie.duration %></p>
+  				<img src=<%= show.movie.image%> >
+  				<a href='/bookticket/<%=show._id %>/screen_layout'> <%= show.showTime %> </a>
+  		</div>
+		<%	}) %>
+	</body>
+</html>

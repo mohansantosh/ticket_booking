@@ -1,0 +1,23 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "This is a sample project on nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ticket",
+    "booking"
+  ],
+  "author": "Mohan Santosh",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "group-by": "0.0.1",
+    "mongoose": "^5.2.0",
+    "mysql": "^2.15.0"
+  }
+}

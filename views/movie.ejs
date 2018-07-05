@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+	<h1>Available shows for the movie <% movie %></h1>
+	<body>
+		<%	movies.forEach(function(data) { %>
+		<div>
+  				<p><%= data.cinema.name %></p>
+  				<p><%= data.cinema.location %></p>
+  				<p><%= data.cinema.rating %></p>
+  				<a href='/bookticket/data._id<%= %>'> Book Ticket! </a>
+  		</div>
+		<%	}) %>
+	</body>
+</html>
